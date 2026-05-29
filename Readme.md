@@ -27,7 +27,7 @@ Menggunakan mikrokontroler Arduino Mega (ATMega2560), sensor ultrasonik untuk de
 | 2124600052 | Achmad Nico Al Gofir | 3D Designer | [Oc1nn](https://github.com/Oc1nn) |
 | 2124600055 | Muhammad Zaky Awwaludin Hani | Progammer | [Cheesejek](https://github.com/CheeseJek) |
 | 2124600050 | Muhammad Rifqy Prasetiyo| UI/UX Designer | [Rifqypaypal]() |
-| 21246000 |  |  | |
+| 2124600060 | Delvia Pramesti Regita Cahyani | QA | [delviap](https://github.com/delviap) |
 
 
 
