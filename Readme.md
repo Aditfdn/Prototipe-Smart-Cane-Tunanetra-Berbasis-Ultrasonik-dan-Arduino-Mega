@@ -32,4 +32,10 @@ Menggunakan mikrokontroler Arduino Mega (ATMega2560), sensor ultrasonik untuk de
 
 
 ## Komponen
-> * 
+> * Rain Sensor
+> * Motor Vibrator
+> * Arduino ATmega 2560
+> * HC-SR04 / Sensor Ultrasonik
+> * MPU-6050 / Sensor Gyroscope
+> * Buzzer
+> * Button / Panic Button
