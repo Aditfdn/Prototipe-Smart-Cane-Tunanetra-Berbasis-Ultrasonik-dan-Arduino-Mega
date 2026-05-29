@@ -12,8 +12,10 @@ Menggunakan mikrokontroler Arduino Mega (ATMega2560), sensor ultrasonik untuk de
 
 
 ## Fitur
+1.
+2.
+3.
 
----
 
 
 ### Support By
