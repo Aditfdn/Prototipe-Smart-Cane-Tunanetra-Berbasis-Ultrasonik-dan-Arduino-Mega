@@ -1,4 +1,4 @@
-# Smart Cane: Sistem Navigasi Tunanetra Berbasis Arduino Mega
+# Rancang Bangun Tongkat Pintar guna Membantu Mobilitas dan Keselamatan Penyandang Tuna Netra Berbasis ATmega2560 melalui Sistem Deteksi Halangan dan Peringatan Getar dalam Mendukung SDG No. 3 Kehidupan Sehat dan Sejahtera
 
 ## Deskripsi Proyek
 
