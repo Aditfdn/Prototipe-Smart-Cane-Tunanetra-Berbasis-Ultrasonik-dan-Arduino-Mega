@@ -3,6 +3,7 @@
 ## Deskripsi Proyek
 
 Proyek ini mengembangkan Tongkat Pintar (Smart White Cane) berbasis mikrokontroler Arduino ATmega2560 yang mengintegrasikan sistem navigasi aktif dan proteksi keselamatan darurat secara real-time guna mendukung mobilitas mandiri penyandang tuna netra sekaligus mewujudkan target SDG No. 3 (Kehidupan Sehat dan Sejahtera). 
+
 Sistem ini memanfaatkan sensor ultrasonik HC-SR04 untuk mendeteksi hambatan fisik di depan pengguna dan Rain Sensor untuk mengidentifikasi genangan air atau permukaan jalan yang basah, yang kemudian direspons secara instan melalui umpan balik intuitif berupa pola getaran dari Motor Vibrator serta peringatan suara dari Buzzer. Selain deteksi lingkungan, tongkat ini dilengkapi fitur keselamatan mandiri berbasis sensor MPU-6050 (Gyroscope) untuk mendeteksi anomali kemiringan ekstrem secara otomatis saat pengguna terjatuh, serta Panic Button sebagai akses manual cepat bagi pengguna untuk memicu alarm pertolongan di situasi kritis.
 
 ## Tujuan Proyek
