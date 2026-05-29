@@ -11,14 +11,10 @@ Menggunakan mikrokontroler Arduino Mega (ATMega2560), sensor ultrasonik untuk de
 ---
 
 
-## Komponen
-1.
-2.
-3.
+> **Komponen**
+> * Water Level Sensor
+> * 
 
-
-
-### Support By
 
 > **Support By**
 > * Dosen Pengampu: Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
