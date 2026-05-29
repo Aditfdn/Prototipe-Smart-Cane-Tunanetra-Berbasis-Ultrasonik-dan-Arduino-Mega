@@ -22,7 +22,7 @@ Menggunakan mikrokontroler Arduino Mega (ATMega2560), sensor ultrasonik untuk de
 | NRP | Nama | Jobdesk | Akun |
 | :--- | :--- | :--- | :--- |
 | 2124600054 | Ferdian Yuly Aditya | Project Manager | [Aditfdn](https://github.com/Aditfdn) |
-| 2124600039 | Joseph Frederick Tora  | Hardware Specialist | [josephtora]() |
+| 2124600039 | Joseph Frederick Tora  | Hardware Specialist | [josephtora](https://github.com/josephtora) |
 | 21246000 |  |  | []() |
 | 21246000 |  |  | []() |
 | 21246000 | |  | []() |
