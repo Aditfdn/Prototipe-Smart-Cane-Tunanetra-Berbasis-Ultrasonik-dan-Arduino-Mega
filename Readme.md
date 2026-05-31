@@ -1,5 +1,5 @@
 # Rancang Bangun Tongkat Pintar guna Membantu Mobilitas dan Keselamatan Penyandang Tuna Netra Berbasis ATmega2560 melalui Sistem Deteksi Halangan dan Peringatan Getar dalam Mendukung SDG No. 3 Kehidupan Sehat dan Sejahtera
-
+![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/49a6e6dd7b502019c3546be057de5d38315eaa58/Assets/Logo.png)
 ## Deskripsi Proyek
 
 Proyek ini mengembangkan Tongkat Pintar (Smart White Cane) berbasis mikrokontroler Arduino ATmega2560 yang mengintegrasikan sistem navigasi aktif dan proteksi keselamatan darurat secara real-time guna mendukung mobilitas mandiri penyandang tuna netra sekaligus mewujudkan target SDG No. 3 (Kehidupan Sehat dan Sejahtera). 
