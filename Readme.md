@@ -14,16 +14,11 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 
 ## Tujuan Proyek
 
-1. Meningkatkan Aksesibilitas dan Mobilitas Mandiri
-Merancang alat bantu jalan yang adaptif untuk mempermudah penyandang tuna netra dalam bernavigasi di lingkungan luar ruangan (outdoor) tanpa ketergantungan penuh pada orang lain.
-2. Membangun Sistem Deteksi Bahaya Multilevel
-Mengintegrasikan sensor jarak (HC-SR04) dan sensor permukaan basah (Rain Sensor) untuk mengidentifikasi berbagai jenis rintangan fisik maupun genangan air di jalanan secara akurat.
-3. Mengoptimalkan Respons Peringatan Dinamis
-Menerapkan sistem umpan balik ganda berupa getaran (haptic tactile) melalui Motor Vibrator dan bunyi via Buzzer yang intuitif serta mudah dipahami oleh indra peraba dan pendengaran pengguna.
-4. Menyediakan Fitur Keselamatan Darurat Jarak Jauh (Safety Guard via GSM)
-Memanfaatkan sensor MPU-6050 untuk mendeteksi anomali kemiringan ekstrem (jatuh) dan Panic Button untuk memicu pengiriman pesan darurat otomatis berupa SMS secara real-time ke pendamping melalui modul GSM SIM800L.
-5. Mendukung Implementasi Target SDGs Global
-Berkontribusi nyata dalam pencapaian Sustainable Development Goals melalui inovasi teknologi inklusif yang berfokus pada SDG 9 (Industry, Innovation, and Infrastructure), SDG 10 (Reduced Inequalities), dan SDG 11 (Sustainable Cities and Communities).
+1. Merancang alat bantu jalan adaptif guna meningkatkan mobilitas mandiri dan keamanan penyandang tuna netra di lingkungan luar ruangan (outdoor).
+2. Mengintegrasikan sensor ultrasonik (HC-SR04) dan rain sensor untuk mendeteksi rintangan fisik serta genangan air di jalan secara real-time.
+3. Menerapkan sistem umpan balik ganda berupa peringatan getar (motor vibrator) dan suara (buzzer) yang intuitif bagi indra peraba dan pendengaran pengguna.
+4. Menyediakan fitur keselamatan darurat berbasis GSM (SIM800L) untuk mengirimkan SMS peringatan otomatis secara real-time saat pengguna menekan tombol panik atau terdeteksi jatuh oleh sensor MPU-6050.
+5. Mendukung pencapaian target SDGs global, khususnya SDG 9 (Industry, Innovation, and Infrastructure), SDG 10 (Reduced Inequalities), dan SDG 11 (Sustainable Cities and Communities).
 
 ## Support By :
 > * Dosen Pengampu: Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
