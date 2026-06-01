@@ -2,9 +2,16 @@
 ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/2e3c4d90a7f616f61bcd43fe882141f1206f676c/Assets/Logo/Logo.png)
 ## Deskripsi Proyek
 
-Proyek ini mengembangkan Tongkat Pintar (Smart White Cane) berbasis mikrokontroler Arduino ATmega2560 yang mengintegrasikan sistem navigasi aktif dan proteksi keselamatan darurat secara real-time guna mendukung mobilitas mandiri penyandang tuna netra sekaligus mewujudkan target SDG No. 3 (Kehidupan Sehat dan Sejahtera). 
+# Deskripsi Proyek
 
-Sistem ini memanfaatkan sensor ultrasonik HC-SR04 untuk mendeteksi hambatan fisik di depan pengguna dan Rain Sensor untuk mengidentifikasi genangan air atau permukaan jalan yang basah, yang kemudian direspons secara instan melalui umpan balik intuitif berupa pola getaran dari Motor Vibrator serta peringatan suara dari Buzzer. Selain deteksi lingkungan, tongkat ini dilengkapi fitur keselamatan mandiri berbasis sensor MPU-6050 (Gyroscope) untuk mendeteksi anomali kemiringan ekstrem secara otomatis saat pengguna terjatuh, serta Panic Button sebagai akses manual cepat bagi pengguna untuk memicu alarm pertolongan di situasi kritis.
+Proyek ini mengembangkan **Tongkat Pintar (Smart White Cane)** berbasis **ATmega2560** yang dirancang untuk membantu mobilitas, keselamatan, dan kemandirian penyandang tuna netra dalam beraktivitas sehari-hari. Sistem mengintegrasikan teknologi deteksi lingkungan, peringatan taktil, serta komunikasi darurat secara real-time guna mendukung implementasi **SDG No. 10 (Reduced Inequalities)** dan **SDG No. 11 (Sustainable Cities and Communities)**.
+
+Tongkat pintar ini memanfaatkan **sensor ultrasonik HC-SR04** untuk mendeteksi keberadaan halangan atau rintangan di depan pengguna. Selain itu, **Rain Sensor** digunakan untuk mendeteksi genangan air atau permukaan jalan yang basah sehingga pengguna dapat menghindari area yang berpotensi membahayakan. Informasi dari kedua sensor tersebut diproses oleh **mikrokontroler ATmega2560** dan diterjemahkan menjadi peringatan berupa getaran melalui **Motor Vibrator** serta bunyi melalui **Buzzer**, sehingga dapat dipahami dengan mudah oleh pengguna tuna netra.
+
+Untuk meningkatkan aspek keselamatan, sistem dilengkapi **Panic Button** yang dapat ditekan pengguna ketika berada dalam kondisi darurat. Saat tombol ditekan, mikrokontroler akan mengaktifkan **modul SIM800L** untuk mengirimkan pesan notifikasi darurat ke akun **Telegram** yang telah terhubung sebelumnya. Fitur ini memungkinkan keluarga, pendamping, atau pihak terkait menerima informasi keadaan darurat secara cepat sehingga bantuan dapat segera diberikan.
+
+Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan multimodal, dan komunikasi darurat berbasis Telegram, tongkat pintar ini diharapkan mampu meningkatkan aksesibilitas, keamanan, dan kualitas hidup penyandang tuna netra dalam beraktivitas di lingkungan perkotaan yang inklusif dan berkelanjutan.
+
 
 ## Tujuan Proyek
 
