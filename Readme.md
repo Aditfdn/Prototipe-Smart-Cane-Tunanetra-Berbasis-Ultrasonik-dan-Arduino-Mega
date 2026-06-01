@@ -42,5 +42,5 @@ Sistem ini memanfaatkan sensor ultrasonik HC-SR04 untuk mendeteksi hambatan fisi
 > * MPU-6050 / Sensor Gyroscope
 > * Buzzer
 > * Button / Panic Button
-> * Esp8266
+> * SIM800L
 > * ArduinoMega 2560
