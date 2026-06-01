@@ -14,11 +14,16 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 
 ## Tujuan Proyek
 
-1. Meningkatkan Aksesibilitas dan Mobilitas Mandiri Merancang alat bantu jalan yang adaptif untuk mempermudah penyandang tuna netra dalam bernavigasi di lingkungan luar ruangan tanpa ketergantungan penuh pada orang lain.
-2. Membangun Sistem Deteksi Bahaya Multilevel Mengintegrasikan sensor jarak (HC-SR04) dan sensor permukaan basah (Rain Sensor) untuk mengidentifikasi berbagai jenis rintangan fisik maupun genangan air secara akurat.
-3. Mengoptimalkan Respons Peringatan Dinamis Menerapkan sistem umpan balik ganda berupa getaran (haptic tactile) melalui Motor Vibrator dan bunyi via Buzzer yang intuitif serta mudah dipahami oleh indra peraba dan pendengaran pengguna.
-4. Menyediakan Fitur Keselamatan Darurat (Safety Guard) Memanfaatkan sensor MPU-6050 untuk mendeteksi anomali kemiringan ekstrem (jatuh) dan menyediakan Panic Button sebagai akses cepat bagi pengguna untuk meminta pertolongan di situasi kritis.
-5. Mendukung Implementasi Target SDGs Berkontribusi nyata dalam pencapaian Sustainable Development Goals (SDG) No. 3 melalui inovasi teknologi inklusif yang berfokus pada keselamatan, kesehatan, dan kesejahteraan penyandang disabilitas.
+1. Meningkatkan Aksesibilitas dan Mobilitas Mandiri
+Merancang alat bantu jalan yang adaptif untuk mempermudah penyandang tuna netra dalam bernavigasi di lingkungan luar ruangan (outdoor) tanpa ketergantungan penuh pada orang lain.
+2. Membangun Sistem Deteksi Bahaya Multilevel
+Mengintegrasikan sensor jarak (HC-SR04) dan sensor permukaan basah (Rain Sensor) untuk mengidentifikasi berbagai jenis rintangan fisik maupun genangan air di jalanan secara akurat.
+3. Mengoptimalkan Respons Peringatan Dinamis
+Menerapkan sistem umpan balik ganda berupa getaran (haptic tactile) melalui Motor Vibrator dan bunyi via Buzzer yang intuitif serta mudah dipahami oleh indra peraba dan pendengaran pengguna.
+4. Menyediakan Fitur Keselamatan Darurat Jarak Jauh (Safety Guard via GSM)
+Memanfaatkan sensor MPU-6050 untuk mendeteksi anomali kemiringan ekstrem (jatuh) dan Panic Button untuk memicu pengiriman pesan darurat otomatis berupa SMS secara real-time ke pendamping melalui modul GSM SIM800L.
+5. Mendukung Implementasi Target SDGs Global
+Berkontribusi nyata dalam pencapaian Sustainable Development Goals melalui inovasi teknologi inklusif yang berfokus pada SDG 9 (Industry, Innovation, and Infrastructure), SDG 10 (Reduced Inequalities), dan SDG 11 (Sustainable Cities and Communities).
 
 ## Support By :
 > * Dosen Pengampu: Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
