@@ -2,7 +2,6 @@
 ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/2e3c4d90a7f616f61bcd43fe882141f1206f676c/Assets/Logo/Logo.png)
 ## Deskripsi Proyek
 
-# Deskripsi Proyek
 
 Proyek ini mengembangkan **Tongkat Pintar (Smart White Cane)** berbasis **ATmega2560** yang dirancang untuk membantu mobilitas, keselamatan, dan kemandirian penyandang tuna netra dalam beraktivitas sehari-hari. Sistem mengintegrasikan teknologi deteksi lingkungan, peringatan taktil, serta komunikasi darurat secara real-time guna mendukung implementasi **SDG No. 10 (Reduced Inequalities)** dan **SDG No. 11 (Sustainable Cities and Communities)**.
 
