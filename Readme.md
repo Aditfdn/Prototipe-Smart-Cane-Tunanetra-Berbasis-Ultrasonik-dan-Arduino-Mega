@@ -49,4 +49,3 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 > * Buzzer
 > * Button / Panic Button
 > * SIM800L
-> * ArduinoMega 2560
