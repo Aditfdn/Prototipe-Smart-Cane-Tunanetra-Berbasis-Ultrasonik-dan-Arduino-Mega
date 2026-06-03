@@ -30,7 +30,7 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 ## Anggota Tim
 
 | Foto | NRP | Nama | Jobdesk | Akun |
-| :--- | :--- | :--- | :--- | :--- |
+| :---: | :---: | :---: | :---: | :---: |
 | <img src="Assets/Foto Identitas/Ferdian Yuly Aditya.jpeg" width="100px"> | 2124600054 | Ferdian Yuly Aditya | Project Manager | [Aditfdn](https://github.com/Aditfdn) |
 | <img src="Assets/Foto Identitas/Joseph Frederick Tora.jpg" width="100px"> | 2124600039 | Joseph Frederick Tora  | Hardware Specialist | [josephtora](https://github.com/josephtora) |
 | <img src="Assets/Foto Identitas/Achmad Nico Al Gofir.jpeg" width="100px"> | 2124600052 | Achmad Nico Al Gofir | 3D Designer | [Oc1nn](https://github.com/Oc1nn) |
