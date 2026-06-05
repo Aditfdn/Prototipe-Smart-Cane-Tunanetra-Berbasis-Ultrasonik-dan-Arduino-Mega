@@ -21,6 +21,7 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 5. Mendukung pencapaian target SDGs global, khususnya SDG 9 (Industry, Innovation, and Infrastructure), SDG 10 (Reduced Inequalities), dan SDG 11 (Sustainable Cities and Communities).
 
 ## Support By :
+![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/1a7dc825d6dbe5c77c79c06e034372277215469f/Assets/Foto%20Anggota%20Kelompok%205.jpeg)
 > * Dosen Pengampu: Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
 > * Mata Kuliah: Mikrokontroler
 > * Program Studi: D4 Teknik Elektronika
@@ -41,6 +42,7 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 
 
 ## Komponen
+![image_alt](
 > * Rain Sensor
 > * Motor Vibrator
 > * Arduino ATmega 2560
