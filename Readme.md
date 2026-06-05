@@ -42,7 +42,7 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 
 
 ## Komponen
-![image_alt](
+![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/3324ea9c473ea72740842fd4290feda3aa289251/Block%20Diagram/BLOK%20DIAGRAM.png)
 > * Rain Sensor
 > * Motor Vibrator
 > * Arduino ATmega 2560
