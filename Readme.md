@@ -89,6 +89,42 @@ Sistem antarmuka dirancang dengan mengutamakan aksesibilitas tinggi dan kemudaha
 | :---: | :---: | :---: |
 | ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/fe9fe746f50363f90342c06611801b971ff54560/UI%20UX%20Design/design/login.png) | ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/fe9fe746f50363f90342c06611801b971ff54560/UI%20UX%20Design/design/dashboard.png) | ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/fe9fe746f50363f90342c06611801b971ff54560/UI%20UX%20Design/design/notifikasi-keluarga.png) |
 
+### 📱 Panduan Penggunaan Aplikasi Mobile (UI/UX)
+
+Desain antarmuka aplikasi mobile S-CANE tersedia secara lengkap dan interaktif di Figma. Aplikasi ini berfungsi sebagai pusat kendali bagi keluarga atau pendamping tunanetra untuk memantau kondisi pengguna tongkat secara real-time.
+
+🔗 **Akses Desain Figma:** [S-CANE Design Mobile – Figma](https://www.figma.com/design/aeiLbA82CAR6ZKnhpcHcCP/S-CANE-Design-Mobile?node-id=0-1&t=lzUT9AXG1RDVlpGS-0)
+
+### 🗺️ Alur Penggunaan Aplikasi
+
+#### 1. 🚀 Splash Screen & Login
+- Buka aplikasi, tampilan *splash screen* S-CANE akan muncul secara otomatis.
+- Masukkan acc dan password kalian serta masukkan identitas kalian yang berisikan nama dan nomor (terdaftar telegram).
+- Setelah autentikasi berhasil, pengguna akan diarahkan ke halaman **Dashboard Utama**.
+
+#### 2. 📊 Dashboard Monitoring
+- Dashboard menampilkan **status koneksi** antara aplikasi dan perangkat S-CANE secara real-time.
+- Tersedia indikator **level baterai** ATmega2560 agar pendamping mengetahui kapan perangkat perlu diisi ulang.
+- Kondisi lingkungan sekitar pengguna (basah/kering) yang terdeteksi oleh *Rain Sensor* ditampilkan sebagai **status cuaca jalan**.
+- Seluruh informasi diperbarui secara otomatis tanpa perlu me-*refresh* halaman.
+
+#### 3. 🆘 Sistem Notifikasi Darurat
+- Ketika pengguna menekan **Panic Button** pada tongkat, aplikasi akan langsung menerima notifikasi darurat yang dikirim melalui modul **SIM800L** via Telegram.
+- Notifikasi yang sama juga dipicu secara otomatis apabila sensor **MPU-6050** mendeteksi kondisi pengguna terjatuh.
+- Halaman notifikasi darurat menampilkan **waktu kejadian**, **status peringatan**, serta panduan tindakan yang dapat segera diambil oleh pendamping.
+
+#### 4. 🤖 Integrasi Telegram Bot
+- Semua pesan darurat dan data status dikirimkan secara otomatis ke **akun Telegram** yang telah ditautkan pada saat login.
+- Pastikan koneksi internet pada perangkat SIM800L aktif agar notifikasi dapat terkirim tanpa hambatan.
+- Pendamping tidak perlu membuka aplikasi secara manual — notifikasi Telegram akan muncul langsung di layar kunci perangkat pendamping.
+
+### ⚙️ Persyaratan Penggunaan
+- Akun Telegram yang aktif untuk menerima notifikasi darurat.
+- Kartu SIM dengan kuota data aktif yang terpasang pada modul **SIM800L** di perangkat S-CANE.
+- Pastikan perangkat S-CANE dalam kondisi menyala dan baterai terisi cukup sebelum digunakan.
+
+> 💡 **Catatan:** Seluruh tampilan antarmuka di atas merupakan konsep desain UI/UX yang dapat diakses dan dieksplorasi secara interaktif melalui tautan Figma di atas. Implementasi aplikasi mobile secara penuh merupakan pengembangan lanjutan dari proyek ini.
+
 ### 🎥 Video Simulasi & Demo UI/UX
 Berikut adalah video demonstrasi interaktif prototipe dan jalannya aplikasi pendukung S-CANE:
 
@@ -98,6 +134,17 @@ https://github.com/user-attachments/assets/26122700-60ff-4c79-a8bb-ca77b9de54d8
 ## 🎬 Video Simulasi Sistem Keseluruhan
 
 Selain pemodelan antarmuka, pengujian fungsionalitas logika program ATmega2560 pada proyek S-CANE ini juga didokumentasikan melalui simulasi interaktif. Video ini menampilkan bagaimana seluruh sensor (HC-SR04, Rain Sensor, MPU-6050) merespons lingkungan dan mengirimkan data secara sinkron ke aktuator serta sistem peringatan.
+
+### 🕹️ Link Simulasi Aktif (Wokwi)
+
+Anda dapat melihat, menjalankan, dan menguji logika program ATmega2560 pada sirkuit S-CANE secara langsung melalui browser tanpa perlu perangkat keras fisik. Klik tombol di bawah ini untuk membuka simulator:
+
+[![Link Wokwi Simulator](https://img.shields.io/badge/Launch-Wokwi_Simulator-2596be?style=for-the-badge&logo=cpu&logoColor=white)](https://wokwi.com/projects/465551109371671553)
+
+> 💡 **Cara Menguji Alat di Wokwi:**
+> 1. Klik tombol **Launch Wokwi Simulator** di atas.
+> 2. Klik tombol **Start Simulation (Ikon Play Hijau)** pada halaman Wokwi.
+> 3. Klik pada komponen **HC-SR04** untuk menggeser slider jarak halangan, atau tekan **Panic Button** untuk melihat respons dari Buzzer dan Motor Vibrator, klik **MPU** untuk melihat kemiringan gyroscope, serta 2 **Potensio** yang satu sebelah kiri **Rain Sensor** dan sebelah kanan sebagai Data Dummy baterai pada **UI/UX** .
 
 ### 📺 Demo Simulasi Alat
 
