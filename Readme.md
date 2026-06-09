@@ -75,13 +75,6 @@ Berikut adalah hasil rancangan 3D dari S-CANE yang dikembangkan menggunakan soft
 
 Untuk mendukung fungsionalitas S-CANE, dikembangkan juga sebuah konsep antarmuka (UI/UX) aplikasi mobile yang berfungsi sebagai pusat kendali, monitoring status baterai, serta pelacakan lokasi pengguna tongkat secara real-time.
 
-### 🎥 Video Simulasi & Demo UI/UX
-Berikut adalah simulasi interaktif dari prototipe UI/UX aplikasi S-CANE:
-
-[Drop/Drag file video simulasi .mp4 Anda di sini sesuai tutorial sebelumnya]
-
----
-
 ### 🎨 Alur Kerja Antarmuka (User Flow)
 Sistem antarmuka dirancang dengan mengutamakan aksesibilitas tinggi dan kemudahan navigasi bagi keluarga atau pendamping tunanetra:
 
