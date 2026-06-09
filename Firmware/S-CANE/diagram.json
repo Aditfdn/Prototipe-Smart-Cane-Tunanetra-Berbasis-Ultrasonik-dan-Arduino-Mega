@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "author": "NaviSense",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-mega",
+      "id": "mega",
+      "top": 220,
+      "left": 250,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "hcsr04",
+      "top": 20,
+      "left": 20,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "mpu6050",
+      "top": 20,
+      "left": 280,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "rain",
+      "top": 20,
+      "left": 500,
+      "attrs": { "label": "Rain Sensor" }
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "battery",
+      "top": 20,
+      "left": 660,
+      "attrs": { "label": "Battery Level" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer",
+      "top": 580,
+      "left": 40,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_vibrator",
+      "top": 580,
+      "left": 220,
+      "attrs": { "color": "blue", "label": "Vibrator" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "panic_btn",
+      "top": 580,
+      "left": 380,
+      "attrs": { "color": "red", "label": "PANIC" }
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "gsm_serial_monitor",
+      "top": 550,
+      "left": 560,
+      "attrs": { "pins": "2", "label": "GSM Monitor" }
+    }
+  ],
+  "connections": [
+    ["mega:GND.1",  "hcsr04:GND",             "black",  []],
+    ["mega:5V",     "hcsr04:VCC",             "red",    []],
+    ["mega:22",     "hcsr04:TRIG",            "green",  []],
+    ["mega:23",     "hcsr04:ECHO",            "yellow", []],
+
+    ["mega:GND.2",  "mpu6050:GND",            "black",  []],
+    ["mega:5V",     "mpu6050:VCC",            "red",    []],
+    ["mega:20",     "mpu6050:SDA",            "blue",   []],
+    ["mega:21",     "mpu6050:SCL",            "purple", []],
+
+    ["mega:GND.3",  "rain:GND",               "black",  []],
+    ["mega:5V",     "rain:VCC",               "red",    []],
+    ["mega:A0",     "rain:SIG",               "orange", []],
+
+    ["mega:GND.8",  "battery:GND",            "black",  []],
+    ["mega:5V",     "battery:VCC",            "red",    []],
+    ["mega:A1",     "battery:SIG",            "white",  []],
+
+    ["mega:6",      "buzzer:1",               "green",  []],
+    ["mega:GND.4",  "buzzer:2",               "black",  []],
+
+    ["mega:7",      "led_vibrator:A",         "blue",   []],
+    ["mega:GND.5",  "led_vibrator:C",         "black",  []],
+
+    ["mega:2",      "panic_btn:1.l",          "red",    []],
+    ["mega:GND.6",  "panic_btn:2.l",          "black",  []],
+
+    ["mega:18",     "gsm_serial_monitor:D0",  "purple", []],
+    ["mega:GND.7",  "gsm_serial_monitor:GND", "black",  []]
+  ]
+}
