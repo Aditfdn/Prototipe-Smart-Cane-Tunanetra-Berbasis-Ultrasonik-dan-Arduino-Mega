@@ -45,7 +45,11 @@ Dengan menggabungkan sistem deteksi hambatan, deteksi genangan air, peringatan m
 Simak video promosi sinematik S-CANE di bawah ini untuk melihat bagaimana teknologi inklusif berbasis ATmega2560 ini bekerja dalam membantu mobilitas mandiri penyandang tunanetra secara nyata:
 
 
-https://github.com/user-attachments/assets/0be7c7a5-2033-4274-8515-4979ece7c445
+
+
+https://github.com/user-attachments/assets/74869555-962a-41be-98e7-b088846499c1
+
+
 
 
 
