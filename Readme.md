@@ -160,7 +160,25 @@ https://github.com/user-attachments/assets/4040b269-2278-43a4-b501-594f7b9bb5d2
 > 💡 **Informasi Pengujian:** > * **Simulasi Input:** Simulasi pembacaan jarak rintangan dan deteksi kondisi jalan basah/genangan air.
 > * **Simulasi Output:** Respons kedipan frekuensi buzzer, kekuatan getaran motor vibrator, serta simulasi pengiriman instruksi AT Command oleh modul GSM SIM800L.
 
+## ⚙️ Simulasi Sistem Keseluruhan
 
+Pengujian fungsionalitas dan logika program **ATmega2560** pada proyek S-CANE didokumentasikan sepenuhnya melalui rekaman video simulasi. Video ini menampilkan bagaimana seluruh sistem dari 3D, Ui Ux hingga sensor (HC-SR04, Rain Sensor, MPU-6050) merespons lingkungan dan berinteraksi secara sinkron dengan komponen output.
+
+### 🎥 Video Demonstrasi Simulasi Alat
+Berikut adalah rekaman jalannya pengujian simulasi sistem S-CANE dari awal hingga akhir:
+
+
+
+
+
+---
+
+### 🔍 Cakupan Pengujian dalam Video:
+* **Simulasi Deteksi Rintangan:** Demonstrasi respons frekuensi suara *Buzzer* dan kekuatan *Motor Vibrator* saat sensor ultrasonik HC-SR04 mendeteksi objek dalam jarak dekat dan kritis.
+* **Simulasi Deteksi Cuaca/Jalan Basah:** Respons sistem saat *Rain Sensor* mendeteksi adanya genangan air atau permukaan jalan yang basah.
+* **Simulasi Kondisi Darurat (SOS):** Pengujian logika pengiriman pesan darurat otomatis ke Telegram pendamping ketika *Panic Button* ditekan atau ketika sensor *MPU-6050* mendeteksi simulasi pengguna terjatuh.
+
+> 💡 *File video mentah dari pengujian ini dapat Anda temukan langsung di dalam folder `Simulasi/` pada repositori ini.*
 
 
 
