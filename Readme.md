@@ -1,3 +1,7 @@
+
+
+
+
 <h1 align="center">Rancang Bangun Tongkat Pintar guna Membantu Mobilitas dan Keselamatan Penyandang Tuna Netra Berbasis ATmega2560 melalui Sistem Deteksi Halangan dan Peringatan Getar dalam Mendukung SDG No. 10 dan 11 (Reduced Inequalities & Sustainable Cities)</h1>
 
 ![image_alt](https://github.com/Aditfdn/S-CANE_Smart-Cane-for-Avoidance-and-Notifying-Electronics/blob/2e3c4d90a7f616f61bcd43fe882141f1206f676c/Assets/Logo/Logo.png)
@@ -168,7 +172,7 @@ Pengujian fungsionalitas dan logika program **ATmega2560** pada proyek S-CANE di
 Berikut adalah rekaman jalannya pengujian simulasi sistem S-CANE dari awal hingga akhir:
 
 
-
+https://github.com/user-attachments/assets/8619169c-2171-4413-95fd-638ff369f83f
 
 
 ---
@@ -176,9 +180,9 @@ Berikut adalah rekaman jalannya pengujian simulasi sistem S-CANE dari awal hingg
 ### 🔍 Cakupan Pengujian dalam Video:
 * **Simulasi Deteksi Rintangan:** Demonstrasi respons frekuensi suara *Buzzer* dan kekuatan *Motor Vibrator* saat sensor ultrasonik HC-SR04 mendeteksi objek dalam jarak dekat dan kritis.
 * **Simulasi Deteksi Cuaca/Jalan Basah:** Respons sistem saat *Rain Sensor* mendeteksi adanya genangan air atau permukaan jalan yang basah.
-* **Simulasi Kondisi Darurat (SOS):** Pengujian logika pengiriman pesan darurat otomatis ke Telegram pendamping ketika *Panic Button* ditekan atau ketika sensor *MPU-6050* mendeteksi simulasi pengguna terjatuh.
+* **Simulasi Kondisi Darurat (SOS):** Pengujian logika pengiriman pesan darurat otomatis ke UI/UX dan Telegram pendamping ketika *Panic Button* ditekan atau ketika sensor *MPU-6050* mendeteksi simulasi pengguna terjatuh.
 
-> 💡 *File video mentah dari pengujian ini dapat Anda temukan langsung di dalam folder `Simulasi/` pada repositori ini.*
+
 
 
 
